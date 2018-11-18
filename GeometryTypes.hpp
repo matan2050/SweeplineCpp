@@ -11,6 +11,9 @@ namespace Sweepline
             Point(const float t_x, const float t_y) : x(t_x), y(t_y) {};
             Point(const Point& other) : x(other.x), y(other.y) {};
 
+            float GetX() { return x; }
+            float GetY() { return y; }
+
         private:
             float x;
             float y;
@@ -22,6 +25,9 @@ namespace Sweepline
             Line(const float t_a, const float t_b) : a(t_a), b(t_b) {};
             Line(const Line& other) : a(other.a), b(other.b) {};
 
+            float GetA() { return a; }
+            float GetB() { return b; }
+
         private:
             float a;
             float b;
@@ -32,6 +38,9 @@ namespace Sweepline
         public:
             Segment(const float t_a, const float t_b, Point t_start, Point t_end) :
                 Line(t_a, t_b), start(t_start), end(t_end) {};
+
+            Point GetStart() const { return start; }
+            Point GetEnd() const { return end; }
 
         private:
             Point start;
