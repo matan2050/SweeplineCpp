@@ -1,5 +1,5 @@
-#include "Containers.h"
-#include "GeometryTypes.hpp"
+#include "../include/Containers.h"
+#include "../include/GeometryTypes.h"
 
 void Sweepline::Containers::SortedLinesMap::Add(const GeometryTypes::Segment* t_seg)
 {

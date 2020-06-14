@@ -2,7 +2,7 @@
 #define _CONTAINERS_H_
 
 #include <map>
-#include "GeometryTypes.hpp"
+#include "../include/GeometryTypes.h"
 
 namespace Sweepline
 {

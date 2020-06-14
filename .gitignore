@@ -1,2 +1,32 @@
-Debug/SweeplineCpp.tlog/SweeplineCpp.lastbuildstate
-Debug/
+# compiled source #
+###################
+*.o
+*.d
+
+# logs #
+########
+*.log
+*.tlog
+
+# os generated files #
+######################
+*.db
+
+# cmake intermediate files #
+############################
+/CMakeFiles
+CMakeCache.txt
+*.cmake
+
+# visual studio files #
+#######################
+*.lastbuildstate
+*.vcxproj
+*.vcxproj.filters
+*.sln
+*.ipch
+*.idb
+*.pdb
+/.vs
+/Debug
+/Release
